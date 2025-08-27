@@ -73,7 +73,7 @@ steps:
       inlineScript: |
         azd provision --no-prompt
     env:
-      AZURE_SUBSCRIPTION_ID: $(AZURE_SUBSCRIPTION_ID)
+      AZURE_SUBSCRIPTION_ID: "223355df-69d7-4593-a8f3-f79c64876509"
       AZURE_ENV_NAME: brainzbytes
       AZURE_LOCATION: "East US 2"
       AZD_INITIAL_ENVIRONMENT_CONFIG: $(AZD_INITIAL_ENVIRONMENT_CONFIG)
